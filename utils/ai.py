@@ -44,7 +44,7 @@ def xai_tactical_advice(players):
                 "Content-Type": "application/json"
             },
             json={
-                "model": "grok-1",
+                "model": "grok-4-1-fast-reasoning",
                 "messages": [{"role": "user", "content": prompt}]
             }
         )
