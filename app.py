@@ -86,7 +86,7 @@ uploaded = st.file_uploader("📡 Upload CSV")
 if uploaded:
     df = pd.read_csv(uploaded)
     st.write(df.head())
-else
+else:
     df = pd.read_csv("data/sample_passes.csv")
     st.write(df.head())
     
